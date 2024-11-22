@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "types": ["jest", "node", "@testing-library/jest-dom", "react", "react-dom", "react-router-dom"],
+    "typeRoots": ["node_modules/@types"],
     "target": "es5",
     "lib": [
       "dom",
