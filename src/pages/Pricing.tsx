@@ -1,10 +1,10 @@
 import React from 'react';
+import Layout from '../components/Layout';
 
 export const Pricing: React.FC = () => {
   return (
-    <div>
-      <h1>Pricing</h1>
-      <p>Découvrez nos options de tarification.</p>
-    </div>
+    <Layout>
+      <div className="text-white text-2xl font-bold p-2">Home</div>
+    </Layout>
   );
 };

@@ -1,12 +1,10 @@
 import React from 'react';
+import Layout from '../components/Layout';
 
 export const Home: React.FC = () => {
   return (
-    <div>
-      <h1>Home</h1>
-      <p>Bienvenue sur la page d'accueil.</p>
-    </div>
+    <Layout>
+      <div className="text-white text-2xl font-bold p-2">Home</div>
+    </Layout>
   );
 };
-
-
